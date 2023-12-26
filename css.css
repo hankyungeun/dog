@@ -1,0 +1,105 @@
+
+body {
+     background-color: #ffdbe6;
+     overflow-y: scroll;
+ }
+ .iscan_product {
+     width: 100%;
+     height: 299px;
+ }
+ .logo_img{
+     max-width: 187px;
+     width: 100%;
+     margin-left: 32px;
+ }
+ .product_img{
+     max-width: 500px;
+     width: 100%;
+     max-height: 500px;
+     height: 100%;
+ }
+ .product_name_field {
+     display: flex;
+ }
+ .product_name_ul {
+     list-style: none;
+     margin-bottom: 0px;
+     display: inline-block;
+ }
+ .product_name {
+     margin-bottom: 0px;
+ }
+ .product_content {
+     border: 3px solid #ffc0cb;
+ }
+ #file_info_content_wrap {
+     position: relative;
+     top: -17px;
+ }
+ #audit_card:hover {
+     border: 1px solid #7401DF;
+     cursor: pointer;
+ }
+ #product_card:hover {
+     border: 1px solid #7401DF;
+     cursor: pointer;
+ }
+ #package_card:hover {
+     border: 1px solid #7401DF;
+     cursor: pointer;
+ }
+ #similar_card:hover {
+     border: 1px solid #7401DF;
+     cursor: pointer;
+ }
+ .footer {
+     border-top: 1px solid #ffc0cb;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     width: 100%;
+     height: auto;
+     margin-top: 79px;
+ }
+ .copyright_field {
+     text-align: center;
+ }
+ .copyright_txt {
+     color: #6c757d;
+     font-size: 14px;
+ }
+ h6 {
+     font-family: 나눔고딕;
+ }
+
+ #banner-message {
+     background: #fff;
+     border-radius: 4px;
+     padding: 20px;
+     font-size: 25px;
+     text-align: center;
+     transition: all 0.2s;
+     margin: 0 auto;
+     width: 500px;
+   }
+   
+   #breed_data {
+
+     border-radius: 4px;
+     padding: 20px;
+     font-size: 12px;
+     text-align: center;
+     transition: all 0.2s;
+     margin-left: 0 auto;
+     width: auto;
+   }
+   
+   #breed_image {
+     background: #fff;
+     width: 0 auto;
+     height: 80px;
+   }
+
+.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
